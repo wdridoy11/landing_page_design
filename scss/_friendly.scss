@@ -1,0 +1,29 @@
+#friendly {
+  background: url(../image/friendly.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+}
+.friendly-content {
+  text-align: center;
+  h2 {
+    color: $white;
+  }
+  p {
+    padding: 0 20%;
+    color: $white;
+    margin: 20px 0;
+  }
+}
+.friendly-btn {
+  margin-top: 20px;
+  button {
+    @extend .BTN;
+    background: $white;
+    color: $black;
+    border: none;
+    font-size: 18px;
+    margin: 0 20px 20px 0;
+  }
+}

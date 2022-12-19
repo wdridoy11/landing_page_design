@@ -1,0 +1,58 @@
+//========== Featured area scss ==========
+#featured {
+  padding: 100px 0 50px 0;
+}
+.featured-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.featured-box {
+  box-shadow: $shadow;
+  padding: 36px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.featured-box i {
+  font-size: 30px;
+  padding: 20px 0;
+  color: #96f844;
+}
+.featured-content {
+  h2 {
+    font-weight: 600;
+  }
+}
+.count {
+  display: flex;
+  flex-wrap: wrap;
+  .volunteer {
+    border: 1px solid #ddd;
+    padding: 28px;
+    border-radius: 50px 0 50px 50px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    p {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+  .mission {
+    @extend .volunteer;
+  }
+}
+
+.learn-more {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0;
+  display: block;
+}

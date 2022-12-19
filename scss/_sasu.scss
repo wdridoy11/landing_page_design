@@ -1,0 +1,16 @@
+#sasu {
+  padding: 50px 0;
+}
+.sasu-heading {
+  text-align: center;
+  p {
+    padding: 0 25%;
+  }
+}
+.sasu-wrapper {
+  padding: 0 12%;
+  margin-top: 50px;
+}
+.sasu-box {
+  @extend .featured-box;
+}

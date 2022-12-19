@@ -1,0 +1,48 @@
+/*========== hero area ==========*/
+@media screen and (max-width: 584px) {
+  .hero-content p {
+    padding-right: 0;
+  }
+}
+/*========== Featured area ==========*/
+@media screen and (max-width: 992px) {
+  .featured-content {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 554px) {
+  .volunteer,
+  .mission {
+    width: 44% !important;
+  }
+}
+@media screen and (max-width: 358px) {
+  .volunteer,
+  .mission {
+    width: 100% !important;
+  }
+}
+/*========== about area ==========*/
+@media screen and (max-width: 391px) {
+  .sign-up {
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  .about-content p {
+    padding-right: 0%;
+  }
+}
+/*========== sasu area ==========*/
+@media screen and (max-width: 992px) {
+  .sasu-heading p {
+    padding: 0 5%;
+  }
+}
+
+/*========== friendly area ==========*/
+
+@media screen and (max-width: 514px) {
+  .friendly-content p {
+    padding: 0 0;
+  }
+}

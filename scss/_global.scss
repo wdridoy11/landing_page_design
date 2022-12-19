@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$white: #fff;
+$black: #000;
+$darkBlack: #1a1a1a;
+$londonRain: #0056b3;
+$textColor: #7f7f7f;
+$blueBolt: #0ab6ff;
+$btn-color: linear-gradient(to left, #00b4ff 0%, #57ddff 51%, #00b4ff 100%);
+$shadow: 0 3px 81px 0 rgb(216 216 216 / 45%);
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p,
+span,
+ul,
+li,
+a {
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: $darkBlack;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  line-height: 55px;
+  font-weight: 600;
+  color: $darkBlack;
+}
+p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: $textColor;
+  font-weight: 300;
+}
+.BTN {
+  padding: 18.5px 38px;
+  background: $btn-color;
+  color: $white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
